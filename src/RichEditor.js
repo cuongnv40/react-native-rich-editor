@@ -238,7 +238,7 @@ export default class RichTextEditor extends Component {
         const {html, editorStyle, useContainer, ...rest} = that.props;
         const {html: viewHTML} = that.state;
         // webview dark theme bug
-        const opacity = that.state.isInit ? 1 : 0;
+        const opacity = that.state.isInit ? 1 : 1;
         return (
             <>
                 <WebView
